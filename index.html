@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=495 height=880 tabindex="-1" style="width: 495px; height: 880px; background: #050505"></canvas>
-    <script src="Build/Chapters_NonC.loader.js"></script>
+    <script src="Build/Chapters_Demo01.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Chapters_NonC.data",
-        frameworkUrl: "Build/Chapters_NonC.framework.js",
-        codeUrl: "Build/Chapters_NonC.wasm",
+        dataUrl: "Build/Chapters_Demo01.data",
+        frameworkUrl: "Build/Chapters_Demo01.framework.js",
+        codeUrl: "Build/Chapters_Demo01.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "8bit experiment",
